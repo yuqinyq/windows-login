@@ -1,0 +1,133 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+main {
+  margin: 0;
+}
+input,
+button {
+  outline: none;
+  border-style: none;
+}
+@-webkit-keyframes STAR-MOVE {
+  from {
+    background-position: 0% 0%;
+  }
+  to {
+    background-position: 600% 0%;
+  }
+}
+@keyframes STAR-MOVE {
+  from {
+    background-position: 0% 0%;
+  }
+  to {
+    background-position: 600% 0%;
+  }
+}
+.wall {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+div#background {
+  background: black url('../img/background.png') repeat-x 5% 0%;
+  /*background-size: cover;*/
+  -webkit-animation: STAR-MOVE 200s linear infinite;
+  -moz-animation: STAR-MOVE 200s linear infinite;
+  -ms-animation: STAR-MOVE 200s linear infinite;
+  animation: STAR-MOVE 200s linear infinite;
+}
+div#midground {
+  background: url('../img/midground.png') repeat 20% 0%;
+  z-index: 1;
+  -webkit-animation: STAR-MOVE 100s linear infinite;
+  -moz-animation: STAR-MOVE 100s linear infinite;
+  -ms-animation: STAR-MOVE 100s linear infinite;
+  animation: STAR-MOVE 100s linear infinite;
+}
+div#foreground {
+  background: url('../img/foreground.png') repeat 35% 0%;
+  z-index: 2;
+  -webkit-animation: STAR-MOVE 50s linear infinite;
+  -moz-animation: STAR-MOVE 50s linear infinite;
+  -ms-animation: STAR-MOVE 50s linear infinite;
+  animation: STAR-MOVE 50s linear infinite;
+}
+main {
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px;
+  margin-top: -200px;
+}
+main .headImg {
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: url("../img/time1.png");
+  background-size: cover;
+  animation: dots 0.8s ease-in infinite;
+}
+@keyframes dots {
+  0% {
+    box-shadow: 0 0 2px 2px rgba(225, 225, 225, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 2px 4px rgba(225, 225, 225, 0.5);
+  }
+}
+main>h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "华文宋体";
+}
+main .loginBox {
+  margin: 30px auto 0;
+  text-align: center;
+}
+main .loginBox > input,
+main .loginBox > button {
+  height: 40px;
+}
+main .loginBox > input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+main .loginBox > input:focus {
+  border: 1px solid #569bff;
+}
+main .loginBox > button {
+  width: 80px;
+  margin-left: 10px;
+  background-color: #282a2d;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #b9b1b1;
+  border-radius: 10px;
+}
+main .loginBox > button:hover {
+  background-color: #404348;
+  border-style: none;
+}
+main .loginBox > p {
+  margin-top: 20px;
+  color: #f00;
+}
+/*# sourceMappingURL=style.css.map */
