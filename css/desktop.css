@@ -43,6 +43,7 @@ main > .deskTopIcon {
   writing-mode: tb-lr;
   -webkit-writing-mode: vertical-lr;
   margin: 10px 0;
+  z-index: 20;
 }
 main > .deskTopIcon > a {
   height: 60px;
@@ -58,21 +59,16 @@ main > .deskTopIcon > a > img {
   width: 50px;
   display: inline-block;
 }
-main > .deskTopRight {
-  position: absolute;
-  height: inherit;
-  width: inherit;
-}
-ul {
+main>ul {
   width: 200px;
   height: auto;
   position: absolute;
-  z-index: 10;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 6px;
   vertical-align: bottom;
   border-radius: 6px;
   display: none;
+  z-index: 21;
 }
 .slideDown {
   top: 0;

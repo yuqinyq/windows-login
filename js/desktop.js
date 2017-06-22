@@ -30,7 +30,7 @@ $(function () {
 
 //右键事件函数
 function rightEvent() {
-    $(".deskTopRight").mousedown(function(e) {
+    $("main").mousedown(function(e) {
         $(".rightMenu").hide();
         if (e.which == 3) {
             if ((e.pageX + 200) < $(this).width() && (e.pageY + 318) < $(this).height()) {
