@@ -1,182 +1,277 @@
 @charset "utf-8";
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
+
 html,
 body,
 main,
 ul,
 li {
-  margin: 0;
+    margin: 0;
 }
+
 li {
-  list-style: none;
+    list-style: none;
 }
+
 input,
 button {
-  outline: none;
-  border-style: none;
+    outline: none;
+    border-style: none;
 }
+
 html,
 body {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
+
 body {
-  background: url("../img/bg/desktop.jpg") no-repeat;
-  overflow: hidden;
-  background-size: cover;
+    background: url("../img/bg/desktop.jpg") no-repeat;
+    overflow: hidden;
+    background-size: cover;
 }
+
 main {
-  height: calc(100% - 50px);
-  width: 100%;
+    height: calc(100% - 50px);
+    width: 100%;
 }
-main > .deskTopIcon {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: inherit;
-  width: inherit;
-  writing-mode: tb-lr;
-  -webkit-writing-mode: vertical-lr;
-  margin: 10px 0;
-  z-index: 20;
+
+main>.deskTopIcon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: inherit;
+    width: inherit;
+    writing-mode: tb-lr;
+    -webkit-writing-mode: vertical-lr;
+    margin: 10px 0;
+    z-index: 20;
 }
-main > .deskTopIcon > a {
-  height: 60px;
-  width: 60px;
-  display: inline-block;
-  margin: 20px;
-  background-color: #fff;
-  padding: 5px;
-  border-radius: 10px;
+
+main>.deskTopIcon>a {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    margin: 25px 20px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
 }
-main > .deskTopIcon > a > img {
-  height: 50px;
-  width: 50px;
-  display: inline-block;
+
+main>.deskTopIcon>a>img {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
 }
+
+main>.deskTopIcon>a>p {
+    writing-mode: lr-tb;
+    text-decoration: none;
+    position: absolute;
+    bottom: -25px;
+    left: 13px;
+    color: #fff;
+}
+
 main>ul {
-  width: 200px;
-  height: auto;
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 6px;
-  vertical-align: bottom;
-  border-radius: 6px;
-  display: none;
-  z-index: 21;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 6px;
+    vertical-align: bottom;
+    border-radius: 6px;
+    display: none;
+    z-index: 21;
 }
+
 .slideDown {
-  top: 0;
-  left: 0;
+    top: 0;
+    left: 0;
 }
+
 .slideUp {
-  bottom: 0;
-  right: 0;
+    bottom: 0;
+    right: 0;
 }
+
 .rightMenu li {
-  padding-top: 6px;
-  padding-bottom: 6px;
-  border-radius: 3px;
-  cursor: pointer;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 3px;
+    cursor: pointer;
 }
+
 .rightMenu li:hover {
-  background-color: #6e6e6e;
-  color: #fff;
+    background-color: #6e6e6e;
+    color: #fff;
 }
+
 .rightMenu i {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  vertical-align: bottom;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: bottom;
 }
+
 .rightMenu span {
-  display: inline-block;
-  width: calc(100% - 24px);
-  height: 24px;
-  vertical-align: bottom;
+    display: inline-block;
+    width: calc(100% - 24px);
+    height: 24px;
+    vertical-align: bottom;
 }
+
 .fileMinBg {
-  background-image: url(../img/file.png);
-  background-repeat: no-repeat;
-  background-size: 12px;
-  background-position: center center;
+    background-image: url(../img/file.png);
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: center center;
 }
+
 .fileCenterBg {
-  background-image: url(../img/file.png);
-  background-repeat: no-repeat;
-  background-size: 14px;
-  background-position: center center;
+    background-image: url(../img/file.png);
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: center center;
 }
+
 .fileMaxBg {
-  background-image: url(../img/file.png);
-  background-repeat: no-repeat;
-  background-size: 16px;
-  background-position: center center;
+    background-image: url(../img/file.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center center;
 }
+
 .bgFile {
-  display: none;
+    display: none;
 }
+
 hr {
-  display: block;
-  -webkit-margin-before: 0.5em;
-  -webkit-margin-after: 0.5em;
-  -webkit-margin-start: auto;
-  -webkit-margin-end: auto;
-  border-style: inset;
-  border-width: 1px;
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
 }
+
 footer {
-  position: absolute;
-  bottom: 0;
-  height: 50px;
-  width: 100%;
-  background-color: #161616;
-  color: #fff;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #161616;
+    color: #fff;
 }
-footer > span {
-  width: 48px;
-  height: 100%;
-  float: left;
-  background-image: url(../img/imgWhite.png);
-  background-repeat: no-repeat;
-  background-size: 18px;
-  background-position: center center;
-  background-color: #09090A;
-  cursor: auto;
+
+footer>span {
+    width: 48px;
+    height: 100%;
+    float: left;
+    background-image: url(../img/imgWhite.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: center center;
+    background-color: #09090A;
+    cursor: auto;
 }
-footer > span:hover {
-  background-color: #2F2F2F;
-  background-image: url(../img/img-blue.png);
+
+footer>span:hover {
+    background-color: #2F2F2F;
+    background-image: url(../img/img-blue.png);
 }
-footer > div {
-  position: absolute;
-  right: 50px;
-  height: 50px;
-  width: 80px;
-  padding: 8px 0;
-  text-align: center;
-  font-size: 12px;
+
+footer>div {
+    position: absolute;
+    right: 50px;
+    height: 50px;
+    width: 80px;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 12px;
 }
-footer > div:hover {
-  background-color: #2F2F2F;
+
+footer>div:hover {
+    background-color: #2F2F2F;
 }
-footer > .notice {
-  width: 48px;
-  height: 100%;
-  float: right;
-  padding: 6px;
-  background-image: url(../img/notice.png);
-  background-repeat: no-repeat;
-  background-size: 18px;
-  background-position: center center;
-  cursor: auto;
+
+footer>.notice {
+    width: 48px;
+    height: 100%;
+    float: right;
+    padding: 6px;
+    background-image: url(../img/notice.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: center center;
+    cursor: auto;
 }
-footer > .notice:hover {
-  background-color: #2F2F2F;
+
+footer>.notice:hover {
+    background-color: #2F2F2F;
 }
+
+
+/*弹出框样式*/
+
+.sysMask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 0.2;
+    z-index: 50;
+}
+
+.sysPupBox {
+    height: 260px;
+    width: 550px;
+    position: fixed;
+    background-color: #fff;
+    padding: 30px 65px 30px;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    box-shadow: 0 0 24px rgba(183, 184, 185, 0.8);
+    left: calc(50% - 275px);
+    top: calc(50% - 130px);
+    z-index: 100;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sysPupBox h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.sysPupBox button {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #838281;
+    border-style: none;
+    outline: none;
+    margin: 30px 10px 0 0;
+}
+
+.sysPupBox button:hover {
+    background-color: #09090A;
+}
+
+.sysPupBox>div {
+    margin: 30px 0 30px;
+}
+
+
 /*# sourceMappingURL=desktop.css.map */

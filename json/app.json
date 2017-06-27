@@ -1,50 +1,62 @@
 [
-  {
-    "appIcon":"../img/img1.png",
-    "appUrl":"https://www.baidu.com/"
+    {
+        "appIcon": "../img/img1.png",
+        "appUrl": "https://www.baidu.com/",
+        "title": "百度"
   },
-  {
-    "appIcon":"../img/img2.jpg",
-    "appUrl":"https://www.taobao.com/"
+    {
+        "appIcon": "../img/img2.jpg",
+        "appUrl": "https://www.taobao.com/",
+        "title": "淘宝"
   },
-  {
-    "appIcon":"../img/img3.png",
-    "appUrl":"https://www.360.cn/"
+    {
+        "appIcon": "../img/img3.png",
+        "appUrl": "https://www.360.cn/",
+        "title": "360"
   },
-  {
-    "appIcon":"../img/img4.jpg",
-    "appUrl":"http://www.bootcss.com/"
+    {
+        "appIcon": "../img/img4.jpg",
+        "appUrl": "http://www.bootcss.com/",
+        "title": "boot"
   },
-  {
-    "appIcon":"../img/img5.png",
-    "appUrl":"http://music.163.com/"
+    {
+        "appIcon": "../img/img5.png",
+        "appUrl": "http://music.163.com/",
+        "title": "音乐"
   },
-  {
-    "appIcon":"../img/img6.jpg",
-    "appUrl":"http://www.ctrip.com/"
+    {
+        "appIcon": "../img/img6.jpg",
+        "appUrl": "http://www.ctrip.com/",
+        "title": "携程"
   },
-  {
-    "appIcon":"../img/img6.png",
-    "appUrl":"https://www.apple.com/"
+    {
+        "appIcon": "../img/img6.png",
+        "appUrl": "https://www.apple.com/",
+        "title": "Apple"
   },
-  {
-    "appIcon":"../img/img7.png",
-    "appUrl":"http://weibo.com/"
+    {
+        "appIcon": "../img/img7.png",
+        "appUrl": "http://weibo.com/",
+        "title": "微博"
   },
-  {
-    "appIcon":"../img/img8.png",
-    "appUrl":"http://www.iqiyi.com/"
+    {
+        "appIcon": "../img/img8.png",
+        "appUrl": "http://www.iqiyi.com/",
+        "title": "奇艺"
   },
-  {
-    "appIcon":"../img/img9.png",
-    "appUrl":"http://pinyin.sogou.com/"
+    {
+        "appIcon": "../img/img9.png",
+        "appUrl": "http://pinyin.sogou.com/",
+        "title": "搜狗"
   },
-  {
-    "appIcon":"../img/img10.png",
-    "appUrl":"http://www.qq.com/"
+    {
+        "appIcon": "../img/img10.png",
+        "appUrl": "http://www.qq.com/",
+        "title": "腾讯"
   },
-  {
-    "appIcon":"../img/img12.png",
-    "appUrl":"http://www.qq.com/"
+    {
+        "appIcon": "../img/img12.png",
+        "appUrl": "http://www.qq.com/",
+        "title": "QQ"
   }
 ]
